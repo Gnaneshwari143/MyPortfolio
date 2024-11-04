@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Portfolio of S R Gnaneshwari</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #d5f5e3; 
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            background-color: #4caf50; 
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2 {
+            border-bottom: 2px solid #4caf50;
+            padding-bottom: 0.5rem;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 1rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 1rem 0;
+            display: flex;
+            align-items: center; 
+            position: relative; 
+        }
+
+        .skill-label, .language-label {
+            flex: 0 0 250px; 
+            margin-right: 10px; 
+        }
+
+        .percentage-container {
+            flex: 1; 
+            height: 4px; 
+            background-color: #e0e0e0; 
+            border-radius: 5px;
+            overflow: hidden; 
+            position: relative; 
+            width: 25%; 
+            margin-left: 10px; 
+        }
+
+        .percentage-bar {
+            height: 100%; 
+            background-color: #6ab04c; 
+            border-radius: 5px;
+            transition: width 0.5s ease; 
+            position: relative; 
+        }
+
+        .percentage-text {
+            position: absolute;
+            right: 5px; 
+            color: #ffffff; 
+            font-size: 0.8em; 
+        }
+
+        a {
+            color: #4caf50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        
+        strong {
+            color: #4caf50; 
+            font-weight: 600; 
+            background-color: #e8f5e9; 
+            padding: 2px 4px; 
+            border-radius: 3px; 
+        }
+
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
+
+            .skill-label, .language-label {
+                flex: 0 0 150px;
+            }
+
+            .percentage-container {
+                width: 100%; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>S R Gnaneshwari</h1>
+    <h2>Front-End Developer</h2>
+</header>
+
+<section id="personal-info">
+    <h2>Who Am I?</h2>
+    <p>I am S R Gnaneshwari,a final year Computer Science Engineering Student passionate about frontend development.I am proficient in HTML,CSS and JAVA.Eager to apply my skills in practical projects.I aim to contribute to innovative ideas.</p>
+</section>
+<section id="resume">
+
+<a href="MY_RESUME" download="MY_RESUME.pdf" class="resume-link">Download My Resume</a>
+
+</section>
+<section id="personal-info">
+    <h2>Personal Information</h2>
+    <ul>
+        <li>Phone: <span>8520971923</span></li>
+        <li>Address: <span>4-146A, Pillayar Gudi Veedi, Puttur, Andhra Pradesh</span></li>
+        <li>Email: <a href="mailto:rameshsatrawada@gmail.com">rameshsatrawada@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/gnaneshwari-s-r-83148a299">View Profile</a></li>
+        <li>GitHub: <a href="https://github.com/Gnaneshwari143">View Profile</a></li>
+    </ul>
+</section>
+
+<section id="expertise">
+    <h2>My Expertise</h2>
+    <ul>
+        <li>
+            <i class="fas fa-code"></i> Web Development
+        </li>
+        <li>
+            <i class="fas fa-cogs"></i> Java
+        </li>
+        <li>
+            <i class="fas fa-robot"></i> AI/ML
+        </li>
+    </ul>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <ul>
+        <li>
+            <strong>Panimalar Institute Of Technology, Chennai</strong><br>
+            <li><span>BE - Computer Science And Engineering</span><br></li>
+            <span>2021 - Present</span>
+        </li>
+        <li>
+            <strong>Narayana Junior College, Nellore</strong><br>
+            <li><span>HSC - 96%</span></li>
+        </li>
+        <li>
+            <strong>Narayana E.M School, Tirupati</strong><br>
+            <li><span>SSC - GPA: 10.0</span></li>
+        </li>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li class="skill-java">
+            <span class="skill-label">Java</span>
+            <div class="percentage-container">
+                <div class="percentage-bar" style="width: 80%;"></div>
+                <span class="percentage-text">80%</span>
+            </div>
+        </li>
+        <li class="skill-html-css">
+            <span class="skill-label">HTML & CSS</span>
+            <div class="percentage-container">
+                <div class="percentage-bar" style="width: 80%;"></div>
+                <span class="percentage-text">80%</span>
+            </div>
+        </li>
+        <li class="skill-ms-office">
+            <span class="skill-label">Proficient in MS Office</span>
+            <div class="percentage-container">
+                <div class="percentage-bar" style="width: 75%;"></div>
+                <span class="percentage-text">75%</span>
+            </div>
+        </li>
+        <li class="skill-teamwork">
+            <span class="skill-label">Ability to work independently and as part of a team</span>
+            <div class="percentage-container">
+                <div class="percentage-bar" style="width: 100%;"></div>
+                <span class="percentage-text">100%</span>
+            </div>
+        </li>
+        <li class="skill-multi-tasking">
+            <span class="skill-label">Able to handle multiple tasks simultaneously</span>
+            <div class="percentage-container">
+                <div class="percentage-bar" style="width: 95%;"></div>
+                <span class="percentage-text">95%</span>
+            </div>
+        </li>
+    </ul>
+</section>
+
+<section id="languages">
+    <h2>Languages</h2>
+    <ul>
+        <li class="language-english">
+            <span class="language-label">English</span>
+            <div class="percentage-container">
+                <div class="percentage-bar" style="width: 90%;"></div>
+                <span class="percentage-text">90%</span>
+            </div>
+        </li>
+        <li class="language-telugu">
+            <span class="language-label">Telugu</span>
+            <div class="percentage-container">
+                <div class="percentage-bar" style="width: 85%;"></div>
+                <span class="percentage-text">85%</span>
+            </div>
+        </li>
+        <li class="language-tamil">
+            <span class="language-label">Tamil</span>
+            <div class="percentage-container">
+                <div class="percentage-bar" style="width: 80%;"></div>
+                <span class="percentage-text">80%</span>
+            </div>
+        </li>
+<li class="language-hindi">
+            <span class="language-label">Hindi</span>
+            <div class="percentage-container">
+                <div class="percentage-bar" style="width: 80%;"></div>
+                <span class="percentage-text">75%</span>
+            </div>
+        </li>
+        </ul>
+</section>
+
+
+
+<section id="contact">
+    <h2>Get In Touch</h2>
+    <ul>
+        <li>
+            <i class="fas fa-phone"></i> 8520971923
+        </li>
+        <li>
+            <i class="fas fa-map-marker-alt"></i> 4-146A, Pillayar Gudi Veedi, Puttur, Andhra Pradesh
+        </li>
+        <li>
+            <i class="fas fa-envelope"></i> rameshsatrawada@gmail.com
+        </li>
+        <li>
+            <a href="https://github.com/Gnaneshwari143" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/gnaneshwari-s-r-83148a299" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+        </li>
+    </ul>
+</section>
+<footer>
+        <p>© Created By S R Gnaneshwari</p>
+    </footer>
+</body>
+</html>
+
+
+
